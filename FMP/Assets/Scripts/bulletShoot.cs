@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 public class bulletShoot : MonoBehaviour
 {
-    
-    
-   
-   
     public float Timer;
     public Transform TurretfirePoint;
     public GameObject TurretbulletPrefab;
@@ -17,8 +13,6 @@ public class bulletShoot : MonoBehaviour
     void Start()
     {
         Timer = 2;
-       
-
     }
 
     void Update()
@@ -28,20 +22,14 @@ public class bulletShoot : MonoBehaviour
         {
             Shoot();
             Timer = 2;
-
-
         }
-
-
-
-
 
     }
     void Shoot()
     {
         GameObject bullet = Instantiate(TurretbulletPrefab, TurretfirePoint.position, TurretfirePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(TurretfirePoint.up * bulletForce, ForceMode2D.Impulse);
+       // rb.AddForce(TurretfirePoint.up * bulletForce, ForceMode2D.Impulse);
     }
 }
 
