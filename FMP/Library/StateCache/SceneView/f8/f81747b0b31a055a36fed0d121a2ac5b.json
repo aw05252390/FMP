@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":20.56186866760254,"y":-38.568294525146487,"z":-39.191200256347659},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":5.863935947418213,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-30.229665756225587,"y":-30.50555419921875,"z":-27.411334991455079},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":62.293373107910159,"orthographic":true}
+>>>>>>> Sabian-Adding-Turrets-To-Levels

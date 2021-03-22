@@ -52,7 +52,7 @@ public class HealthBar : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name == "Capsule(Clone)")
+        if (other.name == "TurretbulletPrefab(Clone)")
         {
             HealthAmount -= 25;
             Destroy(other.gameObject);
@@ -61,6 +61,5 @@ public class HealthBar : MonoBehaviour
                 HealthAmount = 0;
             }
         }
-
     }
 }
