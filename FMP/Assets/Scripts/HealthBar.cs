@@ -56,10 +56,10 @@ public class HealthBar : MonoBehaviour
         {
             HealthAmount -= 25;
             Destroy(other.gameObject);
-            if (other.name == "Pit")
-            {
-                HealthAmount = 0;
-            }
+        }
+        if (other.name == "Pit")
+        {
+            HealthAmount = 0;
         }
     }
 }
